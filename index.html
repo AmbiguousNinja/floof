@@ -7,7 +7,23 @@
 </head>
 
 <body>
-    <img width=100% src="kumikos/uncomfortable.png" style="display:block; margin-left:auto; margin-right:auto; width:50%;"/>
-</body>
+<form>
+    <input type="button" id="btn" value="Retrieve an Iya~"/>
+    <input type="button" id="btn2" value="Retrieve a Kumiko"/>
+</form>
 
+<script type="text/javascript">
+    document.getElementById('btn').onclick = function() {
+        var val = document.getElementById('imagename');
+        val.src = 'https://storage.googleapis.com/floof/iya/skiya.png';
+    }
+    document.getElementById('btn2').onclick = function() {
+        var val = document.getElementById('imagename');
+        val.src = 'https://storage.googleapis.com/floof/kumiko/uncomfortable.png';
+    }
+</script>
+
+<img id="imagename" style="display:block; margin-left:auto; margin-right:auto; width:50%;"/>
+
+</body>
 </html>
