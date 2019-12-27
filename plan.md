@@ -6,3 +6,4 @@ floof.moe/padoru
 # /kumiko
 - random kumiko
 - mood
+- moodmiko
